@@ -1,3 +1,10 @@
+"""
+Python code for finding powerset of a set recursively.
+
+There's an easier method using binary digits. Can you figure it out?
+(Hint: a powerset contains 2^n sets if a set has n elements)
+"""
+
 def powerset(A:set, pset:list=[], depth=0) -> list:
     """
     Finds the powerset of a set A
